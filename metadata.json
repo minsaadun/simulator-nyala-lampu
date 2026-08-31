@@ -1,0 +1,6 @@
+{
+  "name": "Simulator Litar Elektrik Sains Tahun 5",
+  "description": "Aplikasi pembelajaran interaktif Sains Tahun 5 untuk topik Litar Elektrik, perubahan bentuk tenaga, eksperimen litar bersiri & selari, penguji konduktor & penebat, serta kuiz uji minda interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

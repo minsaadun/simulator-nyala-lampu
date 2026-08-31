@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -36;
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.8;
+    filter: drop-shadow(0 0 15px rgba(250, 204, 21, 0.6));
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 30px rgba(250, 204, 21, 0.9));
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.circuit-grid-pattern {
+  background-image: radial-gradient(#1e293b 1px, transparent 1px);
+  background-size: 28px 28px;
+}
